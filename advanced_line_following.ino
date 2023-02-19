@@ -14,8 +14,8 @@ int black_value=4095,white_value=420, distance=68; //defining the values for the
 int servoAngle; //defining the value of servo angle 
 int centreAngle = 89;
 double Kp = 0.5 ; //defining the variables for the PID equations/controller
-double Kd = 0;
-double Ki = 0 ;
+double Kd = 1.5;
+double Ki = 1.5;
 double K = 0.5;
 double cumulative_error = 0;
 double prev_error = 0;
