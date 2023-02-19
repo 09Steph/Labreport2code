@@ -12,8 +12,19 @@ void setup() {   //setups up function
 }
 
 void loop() {
-//Serial.println("running"); //print statement to enseur loop funvtion rus
+//Serial.println("running"); //print statement to ensure loop function runs
+Serial.print("R2:");
 Serial.println(analogRead(R2Pin)); //code to read and print the value from the pin and subsequent sensor
+Serial.print("R1:");
+Serial.println(analogRead(R1Pin));
+Serial.print("M2:");
+Serial.println(analogRead(M2Pin));
+Serial.print("M1:");
+Serial.println(analogRead(M1Pin));
+Serial.print("L2:");
+Serial.println(analogRead(L2Pin));
+Serial.print("L1:");
+Serial.println(analogRead(L1Pin));
 //Serial.println("working"); //print statement to ensure code does execute
 
 }
