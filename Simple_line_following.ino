@@ -1,9 +1,9 @@
-#define L1Pin 14 //define analogue pins to esp32 which connects to the sensors
-#define L2Pin 27
-#define M1Pin 26
-#define M2Pin 25
-#define R1Pin 35
-#define R2Pin 34
+#define L1Pin 36 //define analogue pins to esp32 which connects to the sensors
+#define L2Pin 39
+#define M1Pin 34
+#define M2Pin 35
+#define R1Pin 32
+#define R2Pin 33
 #define I2C_SLAVE_ADDR 0x04
 #include <Wire.h>
 
